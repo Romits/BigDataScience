@@ -1,6 +1,5 @@
-#This code provide a mechanism to perform distributed training of the model using MNIST dataset.
-#It has been tested using r0.11 for the distributed TF library on a cluster simulated on local machine.
-# The model checkpoints are saved in the /tmp directory
+"""This code provide a mechanism to perform distributed training of the model using MNIST dataset.It has been tested using r0.11 for the distributed TF library on a cluster simulated on local machine. The model checkpoints are saved in the /tmp directory. This is related to issue #132
+ 
 
 import math
 import tensorflow as tf
