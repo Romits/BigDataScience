@@ -1,0 +1,1 @@
+python distrainer.py --ps_hosts=osboxes:2222,osboxes:2223 --worker_hosts=osboxes:2224,osboxes:2225 --job_name=worker --task_index=0
